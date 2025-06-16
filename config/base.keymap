@@ -183,8 +183,8 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 
 // Misc aliases. [TODO: clean up]
 #define CANCEL    &kp K_CANCEL            // Cancel caps-word & auto-layers.
-#define DSK_PREV  &hmr LCTRL LG(LC(LEFT)) // Previous desktop.
-#define DSK_NEXT  &hmr LALT LG(LC(RIGHT)) // Next     desktop.
+#define DSK_PREV  &kp LC(LEFT) // Previous desktop.
+#define DSK_NEXT  &kp LC(RIGHT) // Next desktop.
 #define PIN_WIN   &kp LG(LC(LS(Q)))       // Pin window across desktops.
 #define PIN_APP   &kp LG(LC(LS(A)))       // Pin application across desktops.
 #define DSK_MGR   &kp LA(GRAVE)           // Desktop manager.
@@ -217,7 +217,7 @@ ZMK_BASE_LAYER(Nav,
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &sk LGUI      &sk LALT      &sk LSHFT     &sk LCTRL     ___         ,   &kp PG_DN     NAV_LEFT      NAV_DOWN      NAV_RIGHT     &kp RET     ,
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    ___           ___           ___           ___           ___         ,   &kp INS       &kp TAB       ___           ___           ___         ,
+    ___           ___           ___           ___           ___         ,   &kp INS       &kp TAB       LG(TAB)           ___           ___         ,
 //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                                               ___           ___         ,   ___           CANCEL
 //                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯
