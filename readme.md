@@ -23,9 +23,9 @@ manifest](https://github.com/urob/zmk-config/blob/main/config/west.yml).
   [zmk-helpers](https://github.com/urob/zmk-helpers)
 - Fully automated, nix-powered [local build environment](#local-build-environment)
 
-![](draw/keymap.png)
+<img src="./draw/overview.svg" alt="Keymap layout" width="100%" /><br />
 ([Click here](https://raw.githubusercontent.com/urob/zmk-config/refs/heads/main/draw/base.svg)
-for a breakdown by layer - powered by
+for a breakdown by layer – powered by
 [keymap-drawer](https://github.com/caksoylar/keymap-drawer).)
 
 ## Timeless homerow mods
@@ -163,7 +163,7 @@ while also making them easy to remember. Specifically:
 - parenthesis, braces, brackets are set up symmetrically as horizontal combos
   with `<`, `>`, `{` and `}` being accessed from the Navigation layer (or when
   combined with `Shift`)
-- left-hand side combos for `tap`, `esc`, `cut` (on <kbd>X</kbd> +
+- left-hand side combos for `tab`, `esc`, `cut` (on <kbd>X</kbd> +
   <kbd>D</kbd>), `copy` and `paste` that go well with right-handed mouse usage
 
 ## Smart layers and other gimmicks
